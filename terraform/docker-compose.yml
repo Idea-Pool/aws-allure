@@ -17,4 +17,4 @@ services:
       ALLURE_DOCKER_PUBLIC_API_URL: "http://${INSTANCE_IP}:5050"
       ALLURE_DOCKER_PUBLIC_API_URL_PREFIX: ""
     ports:
-      - "5252:5252"
+      - "80:5252"
